@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: yt-downloader-api
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    port: 1000
