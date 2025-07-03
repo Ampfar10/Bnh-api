@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: yt-downloader-api
+    name: bnh-api
     env: docker
     dockerfilePath: Dockerfile
     plan: free
-    port: 1000
+    
