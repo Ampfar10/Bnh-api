@@ -15,7 +15,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose port 10000 (Render default)
-EXPOSE 1000
+EXPOSE 10000
 
 # Run the app with Gunicorn (better production server)
 CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:10000", "--workers", "2"]
